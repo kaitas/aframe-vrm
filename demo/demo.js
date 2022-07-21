@@ -311,9 +311,9 @@ window.addEventListener('DOMContentLoaded', (ev) => {
         { name: '東北ずん子', src: 'assets/Zunko/zunko_vrm.vrm' }
     ];
     let motions = [
-        'assets/bvhfiles/la_bvh_sample01.bvh',
-        'assets/bvhfiles/la_bvh_sample02.bvh',
-        'assets/bvhfiles/la_bvh_sample03.bvh'
+        'assets/bvhfiles/aachan.bvh',
+        'assets/bvhfiles/humanoid_0.bvh',
+        'assets/bvhfiles/T-Pose-FromMocapFusion-Blender.bvh'
     ];
     let vrmEl = document.getElementById('avatar');
     let listEl = document.getElementById('model-list');
