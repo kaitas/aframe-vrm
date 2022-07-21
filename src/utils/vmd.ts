@@ -198,6 +198,7 @@ export class VMDLoaderWrapper {
                         parentObj.updateMatrixWorld();
                         let initPos = vrm.bones[config.bones[0]].getWorldPosition(new THREE.Vector3());
                         dummyBone.position.copy(initPos.applyMatrix4(parentObj.matrixWorld.clone().invert()));
+                        console.log("HERE");
 
                         // DEBUG
                         //let geometry = new THREE.BoxGeometry(0.01, 0.01, 0.01);
